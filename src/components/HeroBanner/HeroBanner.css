@@ -61,6 +61,10 @@
   cursor: pointer;
 }
 
+.hero-banner-btn-1:hover {
+  background-color: #974fa2;
+}
+
 .hero-banner-btn-2 {
   background-color: transparent;
   color: white;
@@ -72,6 +76,11 @@
   position: relative;
   text-align: left;
   cursor: pointer;
+}
+
+.hero-banner-btn-2:hover {
+  background-color: white;
+  color: #70287b;
 }
 
 .fa-arrow-right {

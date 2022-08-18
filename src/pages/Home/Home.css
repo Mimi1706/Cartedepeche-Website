@@ -23,6 +23,10 @@
   color: black;
 }
 
+.section-title a:hover {
+  color: rgb(84, 84, 84);
+}
+
 .news-content {
   cursor: pointer;
 }

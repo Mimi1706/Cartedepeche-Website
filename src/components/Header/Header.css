@@ -10,6 +10,8 @@ header {
 .header-logo {
   display: flex;
   cursor: pointer;
+  color: #662171;
+  text-decoration: none;
 }
 
 header img {

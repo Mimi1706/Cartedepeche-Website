@@ -8,14 +8,15 @@ import frenchFlag from "../../assets/header/french-flag.svg"
 import chevronDown from "../../assets/header/chevron-down.svg"
 
 import data from "../../data/lang/fr/Header.js"
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
     <header>
-      <div className="header-logo">
+      <Link to="/" className="header-logo">
         <img src={logo} alt="logo de carteapecher"></img>
         <h1>CARTEDEPECHE.FR</h1>
-      </div>
+      </Link>
       <nav>
         <label>☰</label>
         <input id="menu-toggle" type="checkbox" />

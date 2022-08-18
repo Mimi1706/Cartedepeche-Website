@@ -35,6 +35,12 @@ footer {
   color: black;
 }
 
+.footer-column-2 li:hover,
+.footer-column-1 .link-2:hover,
+.footer-column-1 .link-1:hover {
+  color: rgb(84, 84, 84);
+}
+
 .footer-column-1 .link-2 {
   color: black;
 }
