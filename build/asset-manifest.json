@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Mimi1706/Cartedepeche-Website/static/css/main.368e342c.css",
+    "main.js": "/Mimi1706/Cartedepeche-Website/static/js/main.abc398d3.js",
+    "static/media/herobannerimg.jpg": "/Mimi1706/Cartedepeche-Website/static/media/herobannerimg.1acf3f422dc37d7309bd.jpg",
+    "static/media/news-2.jpg": "/Mimi1706/Cartedepeche-Website/static/media/news-2.119372ceaac19d9838e0.jpg",
+    "static/media/news-1.jpg": "/Mimi1706/Cartedepeche-Website/static/media/news-1.937199f272cebe618eab.jpg",
+    "static/media/ad-3.jpg": "/Mimi1706/Cartedepeche-Website/static/media/ad-3.ca75ac761ea8b70d4acb.jpg",
+    "static/media/ad-1.jpg": "/Mimi1706/Cartedepeche-Website/static/media/ad-1.db928450d81ca81b1b49.jpg",
+    "static/media/ad-2.jpg": "/Mimi1706/Cartedepeche-Website/static/media/ad-2.1739050d571dd78ec0e9.jpg",
+    "static/media/partner-4.png": "/Mimi1706/Cartedepeche-Website/static/media/partner-4.45e8a8291d0317e70c53.png",
+    "static/media/partner-6.png": "/Mimi1706/Cartedepeche-Website/static/media/partner-6.5c32d5f20a52267816e9.png",
+    "static/media/partner-5.png": "/Mimi1706/Cartedepeche-Website/static/media/partner-5.e776221c760302a8e863.png",
+    "static/media/partner-2.png": "/Mimi1706/Cartedepeche-Website/static/media/partner-2.2987cd0b01971575f25f.png",
+    "static/media/logo-footer.png": "/Mimi1706/Cartedepeche-Website/static/media/logo-footer.b9c27a1f26ad2c1e9fdd.png",
+    "static/media/user.svg": "/Mimi1706/Cartedepeche-Website/static/media/user.e56d672c8403bd05fc3b7781f5e1bc9e.svg",
+    "static/media/shopping-cart.svg": "/Mimi1706/Cartedepeche-Website/static/media/shopping-cart.91a2363765ad607921b42b9f32a1aa76.svg",
+    "index.html": "/Mimi1706/Cartedepeche-Website/index.html",
+    "static/media/search.svg": "/Mimi1706/Cartedepeche-Website/static/media/search.e56582c2c6744c5aeb80b3181c368547.svg",
+    "static/media/twitter.svg": "/Mimi1706/Cartedepeche-Website/static/media/twitter.dd364be646824f7c359a2ebcf7466cbe.svg",
+    "static/media/youtube.svg": "/Mimi1706/Cartedepeche-Website/static/media/youtube.92a0a59f25a6d05e87d0b21cc3b9a04b.svg",
+    "static/media/facebook.svg": "/Mimi1706/Cartedepeche-Website/static/media/facebook.46b7372c2acbc5ca9393d1cd0e7607db.svg",
+    "static/media/french-flag.svg": "/Mimi1706/Cartedepeche-Website/static/media/french-flag.8869345b237bf827b0eb54b4ff4a3dcd.svg",
+    "static/media/chevron-down.svg": "/Mimi1706/Cartedepeche-Website/static/media/chevron-down.0314024217f0f8fe614f1fe37e1f9f4a.svg",
+    "main.368e342c.css.map": "/Mimi1706/Cartedepeche-Website/static/css/main.368e342c.css.map",
+    "main.abc398d3.js.map": "/Mimi1706/Cartedepeche-Website/static/js/main.abc398d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.368e342c.css",
+    "static/js/main.abc398d3.js"
+  ]
+}
