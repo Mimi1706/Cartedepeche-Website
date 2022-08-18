@@ -1,0 +1,132 @@
+header {
+  height: 4em;
+  padding: 0.5em 0em;
+  display: flex;
+  align-items: center;
+  color: #662171;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  cursor: pointer;
+}
+
+header img {
+  height: 2.5em;
+}
+
+header h1 {
+  font-size: 1.3em;
+}
+
+header nav {
+  display: flex;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding: 0;
+}
+
+.menu-1 li,
+.menu-2 li {
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+header li:hover {
+  text-decoration: underline;
+}
+
+header li img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+header label {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  header img {
+    height: 2em;
+  }
+  header h1 {
+    font-size: 1em;
+  }
+
+  header li {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 650px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  header {
+    overflow: hidden;
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  header nav {
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  .menu-1 {
+    display: none;
+    background: #662171;
+    color: white;
+    width: 100%;
+  }
+
+  .menu-1 li {
+    font-size: 1em;
+    line-height: 2em;
+    margin-left: -1em;
+    padding-left: 1em;
+    padding: 0.8em;
+  }
+
+  .menu-1 li:hover {
+    background-color: #974fa2;
+    text-decoration: none;
+  }
+
+  header label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.3em;
+    font-size: 40px;
+    color: #662171;
+    cursor: pointer;
+  }
+
+  #menu-toggle {
+    margin-top: 1em;
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    cursor: pointer;
+    opacity: 0;
+  }
+
+  #menu-toggle:checked + .menu-1 {
+    display: block;
+    position: absolute;
+    margin-top: 3.7em;
+    z-index: 1000;
+  }
+}
