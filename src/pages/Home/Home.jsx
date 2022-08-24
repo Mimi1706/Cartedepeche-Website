@@ -2,7 +2,7 @@ import "./Home.css"
 import { Link } from "react-router-dom"
 
 import HeroBanner from "../../components/HeroBanner/HeroBanner"
-import data from "../../data/lang/fr/Home.js"
+import data from "../../data/lang/fr.js"
 
 import NewsWidget from "../../components/NewsWidget/NewsWidget"
 import Carousel from "../../components/Carousel/Carousel"

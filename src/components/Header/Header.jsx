@@ -5,12 +5,35 @@ import search from "../../assets/header/search.svg"
 import user from "../../assets/header/user.svg"
 import shoppingCart from "../../assets/header/shopping-cart.svg"
 import frenchFlag from "../../assets/header/french-flag.svg"
-import chevronDown from "../../assets/header/chevron-down.svg"
+import englishFlag from "../../assets/header/english-flag.svg"
 
-import data from "../../data/lang/fr/Header.js"
+import data from "../../data/lang/fr.js"
+
 import { Link } from "react-router-dom"
+import { useState } from "react"
+import { useDispatch, useSelector } from "react-redux"
+import switchLang from "../../redux/actions/index"
 
 const Header = () => {
+  const [flag, setFlag] = useState(englishFlag)
+
+  const dispatch = useDispatch()
+  const language = useSelector((state) => state.allLanguages)
+
+  const languageSettings = () => {
+    if (flag === englishFlag) {
+      setFlag(frenchFlag)
+      dispatch(switchLang("eng"))
+      console.log(language)
+      console.log(flag)
+    } else {
+      setFlag(englishFlag)
+      dispatch(switchLang("fr"))
+      console.log(language)
+      console.log(flag)
+    }
+  }
+
   return (
     <header>
       <Link to="/" className="header-logo">
@@ -21,9 +44,9 @@ const Header = () => {
         <label>☰</label>
         <input id="menu-toggle" type="checkbox" />
         <ul className="menu-1">
-          <li>{data.practicalInformations}</li>
-          <li>{data.about}</li>
-          <li>{data.help}</li>
+          <li>{data.header.practicalInformations}</li>
+          <li>{data.header.about}</li>
+          <li>{data.header.help}</li>
         </ul>
         <ul className="menu-2">
           <li>
@@ -35,9 +58,8 @@ const Header = () => {
           <li>
             <img src={shoppingCart} alt="shopping cart icon"></img>
           </li>
-          <li>
-            <img src={frenchFlag} alt="drapeau français" />
-            <img src={chevronDown} alt="flèche vers le bas" />
+          <li className="language-menu" onClick={() => languageSettings()}>
+            <img src={flag} alt="drapeau français" />
           </li>
         </ul>
       </nav>
