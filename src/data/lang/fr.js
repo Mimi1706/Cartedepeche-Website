@@ -12,6 +12,16 @@ export const data = {
     btn2: "Je renouvelle ma carte",
   },
 
+  sectionTitles: {
+    newsSection: "Dernières actualités",
+    newsSectionMore: "Voir toutes les actualités",
+
+    videoSection: "Nos vidéos",
+    videoSectionMore: "Voir toutes les vidéos",
+
+    partnerSection: "Partenaires officiels",
+  },
+
   newsWidget: [
     {
       img: require("../../assets/widgets/news-1.jpg"),
@@ -26,6 +36,14 @@ export const data = {
       alt: "Illustration de l'article",
     },
   ],
+
+  footer: {
+    websiteDisclaimer:
+      "Site officiel d'adhésion aux AAPPMA - Associations de pêche en France",
+    siteMap: "Plan du site",
+    generalConditions: "Mentions légales",
+    contactUs: "Contactez-nous",
+  },
 }
 
 export default data

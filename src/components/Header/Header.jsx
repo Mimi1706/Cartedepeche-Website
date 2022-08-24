@@ -7,8 +7,6 @@ import shoppingCart from "../../assets/header/shopping-cart.svg"
 import frenchFlag from "../../assets/header/french-flag.svg"
 import englishFlag from "../../assets/header/english-flag.svg"
 
-import data from "../../data/lang/fr.js"
-
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
@@ -18,18 +16,16 @@ const Header = () => {
   const [flag, setFlag] = useState(englishFlag)
 
   const dispatch = useDispatch()
-  const language = useSelector((state) => state.allLanguages)
+  const data = useSelector((state) => state.allLanguages.language)
 
   const languageSettings = () => {
-    if (flag === englishFlag) {
-      setFlag(frenchFlag)
+    if (flag === frenchFlag) {
+      setFlag(englishFlag)
       dispatch(switchLang("eng"))
-      console.log(language)
       console.log(flag)
     } else {
-      setFlag(englishFlag)
+      setFlag(frenchFlag)
       dispatch(switchLang("fr"))
-      console.log(language)
       console.log(flag)
     }
   }

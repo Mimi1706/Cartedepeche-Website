@@ -5,15 +5,17 @@ import facebook from "../../assets/footer/facebook.svg"
 import twitter from "../../assets/footer/twitter.svg"
 import youtube from "../../assets/footer/youtube.svg"
 
+import { useSelector } from "react-redux"
+
 const Footer = () => {
+  const data = useSelector((state) => state.allLanguages.language)
+
   return (
     <footer>
       <img className="footer-logo" src={logo} alt="logo cartedepeche"></img>
       <div className="footer-column-1">
         <span>cartedepeche.fr</span>
-        <p>
-          Site officiel d'adhésion aux AAPPMA - Associations de pêche en France
-        </p>
+        <p>{data.footer.websiteDisclaimer}</p>
         <a href="/" className="link-1">
           GENERATIONPECHE.FR
         </a>
@@ -28,9 +30,9 @@ const Footer = () => {
           <img src={youtube} alt="logo Youtube"></img>
         </div>
         <ul>
-          <li>Plan du site</li>
-          <li>Mentions légales</li>
-          <li>Contactez-nous</li>
+          <li>{data.footer.siteMap}</li>
+          <li>{data.footer.generalConditions}</li>
+          <li>{data.footer.contactUs}</li>
         </ul>
       </div>
     </footer>

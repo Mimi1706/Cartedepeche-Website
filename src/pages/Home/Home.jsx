@@ -2,7 +2,6 @@ import "./Home.css"
 import { Link } from "react-router-dom"
 
 import HeroBanner from "../../components/HeroBanner/HeroBanner"
-import data from "../../data/lang/fr.js"
 
 import NewsWidget from "../../components/NewsWidget/NewsWidget"
 import Carousel from "../../components/Carousel/Carousel"
@@ -17,7 +16,11 @@ import partner4 from "../../assets/partners/partner-4.png"
 import partner5 from "../../assets/partners/partner-5.png"
 import partner6 from "../../assets/partners/partner-6.png"
 
+import { useSelector } from "react-redux"
+
 const Home = () => {
+  const data = useSelector((state) => state.allLanguages.language)
+
   return (
     <main>
       <HeroBanner
@@ -30,8 +33,8 @@ const Home = () => {
         <div className="all-content-column-1">
           <section className="news">
             <div className="section-title">
-              <h1>Dernières actualités</h1>
-              <Link to="">Voir toutes les actualités</Link>
+              <h1>{data.sectionTitles.newsSection}</h1>
+              <Link to="">{data.sectionTitles.newsSectionMore}</Link>
             </div>
             <div className="news-content">
               {data.newsWidget.map(({ img, h1, p, alt }, index) => (
@@ -48,8 +51,8 @@ const Home = () => {
 
           <section className="videos">
             <div className="section-title">
-              <h1>Nos vidéos</h1>
-              <Link to="">Voir toutes les vidéos</Link>
+              <h1>{data.sectionTitles.videoSection}</h1>
+              <Link to="">{data.sectionTitles.videoSectionMore}</Link>
             </div>
             <iframe
               width="100%"
@@ -81,7 +84,7 @@ const Home = () => {
 
       <section className="partners">
         <div className="section-title">
-          <h1>Partenaires officiels</h1>
+          <h1>{data.sectionTitles.partnerSection}</h1>
         </div>
         <div className="partners-content">
           <img src={partner1} alt="logo du partenaire"></img>
