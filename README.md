@@ -4,7 +4,7 @@
 
 This project is a website inspired from [Cartedepeche.fr](https://www.cartedepeche.fr), redesigned by [UI/UX designer Wendy Tan](https://www.behance.net/wendytan7). Cartedepeche is a french website made for users to get their official fishing card and become part of a responsible fishing association.
 
-The main feature of this project is the new design, fresher and cleaner. Only the homepage is currently available. A switch from french to english feature is also available through the use of react-redux.
+The main feature of this project is the new design, only the homepage is available but is responsive on all devices. A switch from french to english feature is also available through the use of react-redux.
 
 ## The visual
 
