@@ -8,3 +8,15 @@
     margin: 0em 1em;
   }
 }
+
+@media (min-width: 1600px) {
+  .App {
+    margin: 0em 20%;
+  }
+}
+
+@media (min-width: 2200px) {
+  .App {
+    margin: 0em 30%;
+  }
+}
