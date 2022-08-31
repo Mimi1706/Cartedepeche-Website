@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cartedepeche-Website/static/css/main.b1a15b5a.css",
-    "main.js": "/Cartedepeche-Website/static/js/main.ae11fbbd.js",
+    "main.css": "/Cartedepeche-Website/static/css/main.92c2a9ea.css",
+    "main.js": "/Cartedepeche-Website/static/js/main.a7594630.js",
     "static/media/herobannerimg.jpg": "/Cartedepeche-Website/static/media/herobannerimg.1acf3f422dc37d7309bd.jpg",
     "static/media/news-2.jpg": "/Cartedepeche-Website/static/media/news-2.119372ceaac19d9838e0.jpg",
     "static/media/news-1.jpg": "/Cartedepeche-Website/static/media/news-1.937199f272cebe618eab.jpg",
@@ -22,11 +22,11 @@
     "static/media/facebook.svg": "/Cartedepeche-Website/static/media/facebook.46b7372c2acbc5ca9393d1cd0e7607db.svg",
     "static/media/english-flag.svg": "/Cartedepeche-Website/static/media/english-flag.b3b167e3c7dfe23e6781ce543a4175b2.svg",
     "static/media/french-flag.svg": "/Cartedepeche-Website/static/media/french-flag.8869345b237bf827b0eb54b4ff4a3dcd.svg",
-    "main.b1a15b5a.css.map": "/Cartedepeche-Website/static/css/main.b1a15b5a.css.map",
-    "main.ae11fbbd.js.map": "/Cartedepeche-Website/static/js/main.ae11fbbd.js.map"
+    "main.92c2a9ea.css.map": "/Cartedepeche-Website/static/css/main.92c2a9ea.css.map",
+    "main.a7594630.js.map": "/Cartedepeche-Website/static/js/main.a7594630.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1a15b5a.css",
-    "static/js/main.ae11fbbd.js"
+    "static/css/main.92c2a9ea.css",
+    "static/js/main.a7594630.js"
   ]
 }
