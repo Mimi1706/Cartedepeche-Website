@@ -22,11 +22,9 @@ const Header = () => {
     if (flag === frenchFlag) {
       setFlag(englishFlag)
       dispatch(switchLang("eng"))
-      console.log(flag)
     } else {
       setFlag(frenchFlag)
       dispatch(switchLang("fr"))
-      console.log(flag)
     }
   }
 
